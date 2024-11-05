@@ -41,4 +41,40 @@ The following questions were answered:
 9. ⁠Which are the top 3 regions by subscription cancellations?
 10. ⁠What is the total number of active and canceled subscriptions?
 
+### Data Analysis 
+---
+Some of the codes and features utilized to extract insights from the customer data include the following: 
+1. Excel
+- Pivot tables
+```Excel 
+= AVERAGE(Subscription duration in days I:I) 
+```
+``` Excel
+=COUNTIF(Subscription type, premium, revenue)
+```
+2. Structured Query Language
+```SQL
+SELECT REGION, COUNT(CUSTOMERID) AS TOTALCUSTOMERS
+FROM [dbo].[Capstone_Customer_Data_Project]
+GROUP BY REGION
+```
 
+``` SQL
+SELECT TOP 1 SUBSCRIPTIONTYPE, COUNT(CUSTOMERID) AS CUSTOMERS_NO
+FROM [dbo].[Capstone_Customer_Data_Project]
+GROUP BY SUBSCRIPTIONTYPE
+```
+
+```SQL
+SELECT CUSTOMERID, SUBSCRIPTIONSTART, SUBSCRIPTIONEND
+FROM [dbo].[Capstone_Customer_Data_Project]
+WHERE DATEDIFF(MONTH, SUBSCRIPTIONSTART, SUBSCRIPTIONEND) <= 6
+AND CANCELED = 1
+```
+3. PowerBi
+
+```DAX 
+Total Cancellations = Cancellations / Count(CustomerID)
+```
+
+- Conditional column and measures.
