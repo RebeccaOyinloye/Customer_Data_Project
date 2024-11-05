@@ -14,8 +14,13 @@
 
 [Data Analysis](#data-analysis)
 
-[Visualization])(#visualization)
+[Visualization](#visualization)
 
+[Result and Findings](#result-and-findings)
+
+[Recommendation](#recommendation)
+
+[Limitations](#limitations)
 
 ### Project Overview
 ---
