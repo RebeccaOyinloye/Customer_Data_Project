@@ -91,7 +91,7 @@ Basic subscription type generates the most revenue followed by Standard and Prem
 Top 10 customers account for significant revenue emphasizing the importance of targeted customer retention.
 
 ### Recommendation 
-
+---
 Based on the analysis, I recommend the following actions:
 
 Implement targeted retention strategies to reduce high cancellation rates.
@@ -103,3 +103,7 @@ Conduct regular customer feedback surveys to inform retention strategies.
 Monitor and analyze cancellation reasons.
 
 Develop tailored retention programs for top 10 customers, including:
+
+### Limitations:
+---
+To ensure accuracy and reliability of the analysis, zero-value data points were excluded from the dataset, as they could potentially skew the results and misinterpret true trends and patterns.
