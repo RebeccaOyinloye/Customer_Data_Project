@@ -1,15 +1,15 @@
 # Customer Segmentation Analysis for Subscription Services 
 
 ### Project Overview
-
+---
 This project aims to analyze customer data for a subscription based service to identify distinct customer segment, understand their behavior and track trends in subscriptions and cancellations. This analysis will identify and characterize customer segments based on demographic and behavioral factor, analyze subscription patterns and develop data driven recommendations to enhance customer experience and retention. 
 
 ### Data Source
-
+---
 The data for this Customer Segmentation Analysis project,  ‘Customer Data’, was obtained from ‘LITA Capstone Dataset’ provided by The Incubator Hub.
 
 ### Tools Used
-
+---
 - Excel
 
   1. For Data Cleaning
@@ -21,14 +21,14 @@ The data for this Customer Segmentation Analysis project,  ‘Customer Data’, 
 - Github - For Portfolio Building
 
 ### Data Cleaning and Preparation 
-
+---
 The following Initial data preparation steps were taken: 
 1. Data loading and inspection
 2. ⁠Removing duplicates and checking for missing values 
 3. ⁠Data  Cleaning and Formatting
 
 ### Exploratory Data Analysis 
-
+---
 The following questions were answered: 
 1. What are the subscription patterns in the customer data?
 2. What is the average subscription duration?
@@ -83,4 +83,10 @@ Total Cancellations = Cancellations / Count(CustomerID)
 
 ### Result and Findings 
 ---
+The result of the analysis are summarized as follows: 
+
+The average customer value is substantial indicating potential for significant revenue growth. Regional customer distribution is relatively even, with East, North, South, and West regions having similar customer counts. 
+Cancellation rate is high, highlighting the need for effective retention strategies. 
+Basic subscription type generates the most revenue followed by Standard and Premium each. 
+Top 10 customers account for significant revenue emphasizing the importance of targeted customer retention.
 
