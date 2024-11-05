@@ -77,4 +77,10 @@ AND CANCELED = 1
 Total Cancellations = Cancellations / Count(CustomerID)
 ```
 
-- Conditional column and measures.
+- Conditional column and measures
+
+### Visualization 
+
+### Result and Findings 
+---
+
