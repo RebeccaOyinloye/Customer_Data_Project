@@ -28,7 +28,7 @@ This project aims to analyze customer data for a subscription based service to i
 
 ### Data Source
 ---
-The data for this Customer Segmentation Analysis project,  ‘Customer Data’, was obtained from ‘LITA Capstone Dataset’ provided by The Incubator Hub.
+The initial data used for this Customer Segmentation Analysis project,  ‘Customer Data’, was obtained from ‘LITA Capstone Dataset’ provided by The Incubator Hub.
 
 ### Tools Used
 ---
@@ -102,6 +102,11 @@ Total Cancellations = Cancellations / Count(CustomerID)
 - Conditional column and measures
 
 ### Visualization 
+
+
+
+
+
 
 ### Result and Findings 
 ---
