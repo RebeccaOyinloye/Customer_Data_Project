@@ -52,16 +52,16 @@ The following Initial data preparation steps were taken:
 ### Exploratory Data Analysis 
 ---
 The following questions were answered: 
-1. What are the subscription patterns in the customer data?
-2. What is the average subscription duration?
-3. What are the most popular subscription types?
-4. ⁠What is the total number of customers from each region
-5. ⁠Which subscription type has the most customers?
-6. ⁠How many customers canceled their subscription within 6 months?
-7. ⁠How many customers have subscriptions longer than 12 months?
-8. ⁠What is the total revenue by subscription type?
-9. ⁠Which are the top 3 regions by subscription cancellations?
-10. ⁠What is the total number of active and canceled subscriptions?
+- What are the subscription patterns in the customer data?
+- What is the average subscription duration?
+- What are the most popular subscription types?
+- ⁠What is the total number of customers from each region
+- ⁠Which subscription type has the most customers?
+- ⁠How many customers canceled their subscription within 6 months?
+- ⁠How many customers have subscriptions longer than 12 months?
+- ⁠What is the total revenue by subscription type?
+- ⁠Which are the top 3 regions by subscription cancellations?
+- ⁠What is the total number of active and canceled subscriptions?
 
 ### Data Analysis 
 ---
@@ -93,19 +93,45 @@ FROM [dbo].[Capstone_Customer_Data_Project]
 WHERE DATEDIFF(MONTH, SUBSCRIPTIONSTART, SUBSCRIPTIONEND) <= 6
 AND CANCELED = 1
 ```
-3. PowerBi
-
+3. Power Bi
+- Measures
 ```DAX 
 Total Cancellations = Cancellations / Count(CustomerID)
 ```
 
-- Conditional column and measures
+- Conditional column 
 
 ### Visualization 
 
+- Pivot Tables Summarizations
 
+![Customer_data_pivot](https://github.com/user-attachments/assets/154bd7f6-0acc-4088-a6af-2e1a7dc50410)
 
+![Customer_pivot_table](https://github.com/user-attachments/assets/ac4f1235-4206-42ee-9a91-53e4bba5bb70)
 
+![Customer_data_pivot_table](https://github.com/user-attachments/assets/b8f8fdc6-0717-4047-b108-ff73d53c93e9)
+
+- Metrics with Excel Formula
+
+![CUS_DATA_PIVOT](https://github.com/user-attachments/assets/c1e33a04-a0d2-4f26-8e38-0e1bcb856a47)
+
+- Structured Query Summarizations(SQL) Summarizations
+
+![SQL QUERY1](https://github.com/user-attachments/assets/9189020f-35bc-4fb3-9219-7d93931826ec)
+
+![SQL_QUERY2](https://github.com/user-attachments/assets/529634a2-d23b-4d0f-80bb-d893830fe2aa)
+
+![SQL_QUERY 3](https://github.com/user-attachments/assets/5fcc0518-537b-488d-8d40-a42cd97fecf4)
+
+![SQL_QUERY_4](https://github.com/user-attachments/assets/6c44409c-e30a-4774-ba0b-70c4f382f40c)
+
+- Customer Data Dashboard
+
+![Customerdata](https://github.com/user-attachments/assets/4632085f-c591-476d-ae4c-1482174794d5)
+
+- Customer Data Table and Chart
+
+![Customer_data_table](https://github.com/user-attachments/assets/3581f54b-e75b-4cbf-8667-342e4536bb8d)
 
 
 ### Result and Findings 
@@ -133,4 +159,4 @@ Develop tailored retention programs for top 10 customers, including:
 
 ### Limitations:
 ---
-To ensure accuracy and reliability of the analysis, zero-value data points were excluded from the dataset, as they could potentially skew the results and misinterpret true trends and patterns.
+To ensure accuracy and reliability of the analysis, i had to remove all zero-value  were excluded from the dataset, as they could potentially skew the results and misinterpret true trends and patterns.
